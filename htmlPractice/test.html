@@ -7,41 +7,18 @@
 
 <body>
     <p>
-        <table>
-            <caption>表格顶部名称</caption>
-            <colgroup>
-                <col class="be_e1" id="version"/>
-                <col class="be_e2" id="postTime"/>
-                <col class="be_e1" id="OS" span="2"/>
-            </colgroup>
-            <thead>
+        <form>
+            <table>
                 <tr>
-                    <th>序号</th>
-                    <th>名字</th>
-                    <th>备注</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>A</td>
+                    <td><label for="user" accesskey="1">姓名</label></td>
+                    <td><input type="text" name="user" value="张三" size="5" id="user"></td>
                 </tr>
                 <tr>
-                    <td>2</td>
-                    <td>B</td>
-                    <td>other</td>
+                    <td><label for="password">密码</label></td>
+                    <td><input type="text" name="password" id="password"></td>
                 </tr>
-                <tr>
-                    <td>3</td>
-                    <td>C</td>
-                    <td>this</td>
-                </tr>
-            </tbody>
-            <tfoot>
-                <tr>foot</tr>
-                <tr>foot2</tr>
-            </tfoot>
-        </table>
+            </table>
+        </form>
     </p>
 </body>
 
