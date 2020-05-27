@@ -8,7 +8,8 @@
 <body>
     <p>
         <form action="testform.asp" method="GET">
-            输入：<input type="number" name="number1" min="10" max="999" step="10">
+            输入6位数字：<input type="text" name="text1" pattern="[0-9]{6}" title="输入6位！">
+            <input type="submit" value="提交">
         </form>
     </p>
 </body>
