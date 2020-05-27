@@ -7,9 +7,14 @@
 
 <body>
     <p>
-		<label>选择文件
-        <input type="file" multiple="multiple">
-		</label>
+		<form autocomplete="on">
+			<input type="text" id="city" list="cityList">
+			<datalist id="cityList" style="display: none">
+				<option value="beijing">BJ</option>
+				<option value="shanghai">SH</option>
+				<option value="nanchong">NC</option>
+			</datalist>
+        </form>
     </p>
 </body>
 
