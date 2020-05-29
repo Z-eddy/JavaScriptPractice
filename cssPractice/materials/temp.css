@@ -1,10 +1,3 @@
-body{
-    background-color:burlywood;
-}
-.ul1>li{/*子选择器,只会关联直接属于上级的子项,不包含更下层的项*/
-    color: green;
-}
-.ul2 div ol{
-    color: darkolivegreen;
-    background-color: darkorange;
+li+div{
+    color:red;
 }
