@@ -14,3 +14,12 @@ li{/*标签选择器,普通标签1分加权*/
 div.theLi{/*类选择器10分加权*/
     color: violet;
 }
+#li1{/*id选择器加权100*/
+    color: white;
+}
+#li2{
+    color: gray;
+}
+#li3{
+    color: black;
+}
