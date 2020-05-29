@@ -1,3 +1,12 @@
 body{
     background-color: blanchedalmond;
+    color: green;
+    font-size: 24px;
+}
+ul{
+    background-color: turquoise;
+}
+li{/*标签选择器*/
+    background-color:#FFFF0096;/*可以设置为RGBA*/
+    color: red;
 }
