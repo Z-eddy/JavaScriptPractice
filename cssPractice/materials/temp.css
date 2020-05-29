@@ -1,25 +1,10 @@
-/*层叠属性加权*/
 body{
-    background-color: blanchedalmond;
+    background-color:burlywood;
+}
+.ul1 div li{
     color: green;
-    font-size: 24px;
 }
-ul{
-    background-color: turquoise;
-}
-li{/*标签选择器,普通标签1分加权*/
-    background-color:#FFFF0096;/*可以设置为RGBA*/
-    color: red;
-}
-div.theLi{/*类选择器10分加权*/
-    color: violet;
-}
-#li1{/*id选择器加权100*/
-    color: white;
-}
-#li2{
-    color: gray;
-}
-#li3{
-    color: black;
+.ul2 div ol{
+    color: darkolivegreen;
+    background-color: darkorange;
 }
