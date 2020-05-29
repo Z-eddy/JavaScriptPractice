@@ -1,3 +1,4 @@
+/*层叠属性加权*/
 body{
     background-color: blanchedalmond;
     color: green;
@@ -6,7 +7,10 @@ body{
 ul{
     background-color: turquoise;
 }
-li{/*标签选择器*/
+li{/*标签选择器,普通标签1分加权*/
     background-color:#FFFF0096;/*可以设置为RGBA*/
     color: red;
+}
+.theLi{/*类选择器10分加权*/
+    color: violet;
 }
