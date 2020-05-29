@@ -1,22 +1,10 @@
-/*不就是正则表达式吗*/
-[type]{/*包含type时*/
-    color: green;
-}
-[type="text"]{/*包含type,且值为text时*/
-    background-color:coral;
-}
-[type~="text"]{/*包含type,且值包含text时,用*替换*/
-    color: red;
-}
-[type^="text"]{/*包含type,且开头为text时*/
-    color: yellow;
-}
-[type$="text"]{/*包含type,且结尾为text时*/
-    color: violet;
-}
-[type*="text"]{/*包含type,且只要出现了text*/
-    color:gray;
-}
-[type|="te"]{/*包含type,且必须以te开头,如果不是只有一个单词,则紧跟-,用^替换*/
+#ul2ID li:first-of-type{
     color: greenyellow;
+}
+#ul2ID li:last-of-type{
+    color: blue;
+}
+/*如果是child,则序号中算上div标签*/
+#ul2ID li:nth-of-type(4){/*数值可以为n*/
+    color: brown;
 }
