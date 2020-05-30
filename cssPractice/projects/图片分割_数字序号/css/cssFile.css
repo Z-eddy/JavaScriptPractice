@@ -1,0 +1,29 @@
+/*列表样式*/
+ul{/*ul的css*/
+    list-style-type: none;
+    margin: 0;/*无边距*/
+    padding: 0;/*无填充*/
+    font-size: 14px;
+}
+ul li{/*ul包含的所有li的css*/
+    background-image: url("../images/top10-bullet.png");
+    background-repeat: no-repeat;
+    background-origin: 2px 10px;
+    padding-left: 24px;
+    line-height: 30px;
+}
+li a{
+    text-decoration: none;
+    color: #444;
+}
+
+/*结构伪类应用*/
+li:nth-child(n){background-position-x: 2px;}
+li:first-child{background-position-y: 10px;}
+li:last-child{background-position-y: -277px;}
+li:nth-child(2){background-position-y: -31px;}
+li:nth-child(3){background-position-y: -72px;}
+li:nth-child(4){background-position-y: -113px;}
+li:nth-child(5){background-position-y: -154px;}
+li:nth-child(6){background-position-y: -195px;}
+li:nth-child(7){background-position-y: -236x;}
