@@ -1,4 +1,13 @@
-/*ul:not(li)会全变色,表示ul不是li*/
-ul>:not(li){/*ul标签下,非li标签的变色*/
-    color: aqua;
+a{/*a标签全局左边填充20像素*/
+    padding-left: 20px;
+}
+a[href$=".pdf"]{/*a标签href属性以.pdf结尾的*/
+    background-image: url("../materials/images/pdf.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+a[href$=".txt"]{
+    background-image: url("../materials/images/txt.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
 }
