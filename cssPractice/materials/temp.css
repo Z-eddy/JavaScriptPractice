@@ -1,10 +1,4 @@
-#ul2ID li:first-of-type{
-    color: greenyellow;
-}
-#ul2ID li:last-of-type{
-    color: blue;
-}
-/*如果是child,则序号中算上div标签*/
-#ul2ID li:nth-of-type(4){/*数值可以为n*/
-    color: brown;
+/*ul:not(li)会全变色,表示ul不是li*/
+ul>:not(li){/*ul标签下,非li标签的变色*/
+    color: aqua;
 }
