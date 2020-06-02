@@ -1,6 +1,4 @@
-.super{
-    line-height: 1em;
-}
-.sub{
-    line-height: 2em;
+p{
+    text-indent: -2em;
+    padding-left: 2em;
 }
