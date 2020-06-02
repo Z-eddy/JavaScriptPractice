@@ -1,6 +1,6 @@
-body{
-    font-size: 24px;
+.super{
+    letter-spacing: 0.5em;/*字符间距离*/
 }
-p{
-    text-align: center;
+.sub{
+    word-spacing: 0.5em;/*词语间距离*/
 }
