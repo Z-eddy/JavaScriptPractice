@@ -1,6 +1,6 @@
 .super{
-    letter-spacing: 0.5em;/*字符间距离*/
+    line-height: 1em;
 }
 .sub{
-    word-spacing: 0.5em;/*词语间距离*/
+    line-height: 2em;
 }
