@@ -1,16 +1,6 @@
 body{
-    font-size: 36px;
+    font-size: 24px;
 }
-body .serif{
-    font-family: serif;
-}
-body .serif_200{
-    font-family: serif;
-    font-size: 200%;
-}
-body .sans-serif{
-    font-family: sans-serif;
-}
-body .monospace{
-    font-family: monospace;
+p{
+    color:rgba(128,255,0,120);/*rgb也可以*/
 }
