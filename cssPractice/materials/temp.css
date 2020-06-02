@@ -2,5 +2,7 @@ body{
     font-size: 24px;
 }
 p{
-    font-variant: small-caps;
+    text-transform: uppercase;/*大写*/
+    text-transform: lowercase;/*小写*/
+    text-transform: capitalize;/*首字母大写*/
 }
