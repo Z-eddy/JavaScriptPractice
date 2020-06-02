@@ -4,6 +4,10 @@ body{
 body .serif{
     font-family: serif;
 }
+body .serif_200{
+    font-family: serif;
+    font-size: 200%;
+}
 body .sans-serif{
     font-family: sans-serif;
 }
