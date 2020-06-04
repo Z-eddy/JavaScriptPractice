@@ -1,6 +1,20 @@
-p{
-    color: blue;
+.box{
+    display: inline-block;
+    height: 200px;
+    width: 45%;
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: #666;
 }
-p#text1{
-    color: initial;
+.box div{
+    width: 200px;
+    background-color: #ccc;
+    position: absolute;
+}
+.h0{
+    height: 100%;
+}
+.h1{
+    height: inherit;
 }
