@@ -1,0 +1,22 @@
+.btn{
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    text-decoration: none;
+    color: #a78252;
+    border-radius: 50%;/*圆形*/
+    font-size: 62px;
+    background-color: #ddc390;
+
+    border-width: 6px;
+    border-style: solid;
+    border-color: #ddc390;
+
+    box-shadow: inset 0 0 0 1px #d6b681,0 4px;/*内阴影,外阴影*/
+
+    writing-mode: vertical-rl;
+}
+.btn:active{
+    text-indent: 4px;
+}
