@@ -1,6 +1,6 @@
 p{
-    writing-mode: vertical-rl;
+    color: blue;
 }
-h1,h2{
-    color: coral;
+p#text1{
+    color: initial;
 }
