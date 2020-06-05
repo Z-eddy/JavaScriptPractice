@@ -1,6 +1,10 @@
 body{
     font-size: 50px;
+    word-spacing: 80px;
 }
-q{
-    quotes: "<" ">";
+a[href $=".pdf"]::before{
+    content: "是PDF";
+}
+a[href $=".txt"]::after{
+    content: "是Txt";
 }
