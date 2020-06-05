@@ -1,0 +1,20 @@
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 20px;
+    background-image: url(images/sprite_icons.png);
+    background-color: currentColor;
+}
+.icon0{
+    background-position: 0 0;
+}
+.icon1{
+    background-position: -25px 20px;
+}
+
+.link{
+    margin-right: 15px;
+}
+.link:hover{
+    color: red;
+}
