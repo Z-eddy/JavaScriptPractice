@@ -1,26 +1,6 @@
-ol{
-    /* 取消目录自身的标签*/
-    list-style:none;
+body{
+    font-size: 50px;
 }
-li::before{
-    color: #f00;
-    font-family: 'Times New Roman', Times, serif;
-}
-li{
-    counter-increment: a 1;
-}
-li::before{
-    content: counter(a)". ";
-}
-li li{
-    counter-increment: b 1;
-}
-li li::before{
-    content:counter(a)"."counter(b)". "
-}
-li li li{
-    counter-increment: c 1;
-}
-li li li::before{
-    content:counter(a)"."counter(b)"."counter(c)"."
+q{
+    quotes: "<" ">";
 }
