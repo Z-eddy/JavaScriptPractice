@@ -1,4 +1,3 @@
 body{
-    background-image: url(../materials/images/pdf.jpg);
-    background-repeat: repeat-y;
+    background: linear-gradient(to right,white,black);
 }
