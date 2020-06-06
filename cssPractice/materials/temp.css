@@ -1,6 +1,6 @@
 body{
-    height: 300px;
-    /* background: radial-gradient(circle farthest-corner,red 5%,green 15%,blue 60%); */
-    background: radial-gradient(circle farthest-side at left bottom,red ,green ,blue );
+    height: 800px;
+    /* 当颜色的起始和终止重叠时,没有了渐变效果,为突变效果 */
+    background: radial-gradient(circle,red 15%,green 15%,blue 60%);
     background-repeat: no-repeat;
 }
