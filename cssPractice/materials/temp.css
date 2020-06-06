@@ -1,3 +1,4 @@
-.img0{
-    width: 300px;
+body{
+    background-image: url(../materials/images/pdf.jpg);
+    background-repeat: repeat-y;
 }
