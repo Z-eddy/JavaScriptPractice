@@ -1,5 +1,5 @@
-p{
-    width: 100px;
-    text-overflow: ellipsis;
-    overflow: hidden;
+div{
+    border-width: 1px;
+    border-style: solid;
+    column-width: 100px;
 }
