@@ -1,4 +1,5 @@
-#im{
-    padding: 10px;
-    zoom: 5;
+p{
+    width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
