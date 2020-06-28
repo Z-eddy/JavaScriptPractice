@@ -1,10 +1,6 @@
-function foo(num0,num1) {
-    n = num0 + num1;
-    return n;
+var arr=[1,2,3,4,5]
+for (let index = 0; index < arr.length; ++index) {
+    const element = arr[index];
 }
-function foo1(){
-    alert(n);
-}
-
-foo(1,2);
-foo1();
+arr[9]="test"
+alert(arr[8] + " " + arr[9])
