@@ -1,10 +1,26 @@
-var arr=[];
-for (var i = 0; i != 10; ++i) {
-    arr[arr.length]=i;//每次在最后添加1
+var obj0={
+    toString:function(){
+        return "string";
+    },
+    toLocaleString:function(){
+        return "***localS";
+    }
 }
 
-var s="";
-for (let i = 0; i !=arr.length; ++i) {
-    s += i !== arr.length - 1 ? i + " " : i;//最后一个不加空格
+var obj1={
+    toString:function(){
+        return "obj1String";
+    },
+    toLocaleString:function(){
+        return "***localObj1";
+    },
+    other:function(){
+        return "otherFunc";
+    }
 }
-alert(Array.isArray(arr))//坚持是否是数组
+
+var arr=[obj0,obj1];
+alert(arr);
+alert(arr.toString());
+alert(arr.toLocaleString());
+alert(obj1.other())
