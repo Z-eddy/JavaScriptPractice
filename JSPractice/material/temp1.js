@@ -1,1 +1,1 @@
-foo()
+foo("Jim","Ohter")
