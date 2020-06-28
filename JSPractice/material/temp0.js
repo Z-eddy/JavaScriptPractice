@@ -1,3 +1,11 @@
 var arr = [0, 1, 5, 10, 15];
-arr.splice(1,2,81,82,83);//从索引1开始,删2个数值,插入81,82,83值
-alert(arr.join(" "));
+var ind=arr.indexOf(5,3);//指定的起始索引超过了,找不到就返回-1
+alert(ind);//-1
+
+var obj={
+    name:"NameA"
+};
+var objArr = [{ name: "NameA" }];
+var objArr1=[obj];
+alert(objArr.indexOf(obj));//-1
+alert(objArr1.indexOf(obj));//0
