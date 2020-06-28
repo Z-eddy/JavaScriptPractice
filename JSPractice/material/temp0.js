@@ -7,4 +7,4 @@ var s="";
 for (let i = 0; i !=arr.length; ++i) {
     s += i !== arr.length - 1 ? i + " " : i;//最后一个不加空格
 }
-alert(s);
+alert(Array.isArray(arr))//坚持是否是数组
