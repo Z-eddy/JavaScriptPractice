@@ -1,9 +1,10 @@
-"use strict"
-if (true) {
-    var n = 12.354;
+function foo(num0,num1) {
+    n = num0 + num1;
+    return n;
 }
-alert(n);
+function foo1(){
+    alert(n);
+}
 
-for (var i = 0; i != 10; ++i) {
-}
-alert(i);
+foo(1,2);
+foo1();
