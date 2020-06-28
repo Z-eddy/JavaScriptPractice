@@ -20,7 +20,7 @@ var obj1={
 }
 
 var arr=[obj0,obj1];
-alert(arr);
+alert(arr.join("$"));
 alert(arr.toString());
 alert(arr.toLocaleString());
 alert(obj1.other())
