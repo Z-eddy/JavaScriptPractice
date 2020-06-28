@@ -1,26 +1,6 @@
-var obj0={
-    toString:function(){
-        return "string";
-    },
-    toLocaleString:function(){
-        return "***localS";
-    }
+var arr=[];
+for(var i=0;i!=10;++i){
+    arr.push(i);//推入值
 }
-
-var obj1={
-    toString:function(){
-        return "obj1String";
-    },
-    toLocaleString:function(){
-        return "***localObj1";
-    },
-    other:function(){
-        return "otherFunc";
-    }
-}
-
-var arr=[obj0,obj1];
-alert(arr.join("$"));
-alert(arr.toString());
-alert(arr.toLocaleString());
-alert(obj1.other())
+arr.pop();//弹出1个
+alert(arr.join(" "));
