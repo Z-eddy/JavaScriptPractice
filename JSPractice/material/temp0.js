@@ -1,3 +1,2 @@
-var startT=Date.now();//当前时间的毫秒数
-alert(start)
-var stopT=Date.now();//当前时间的毫秒数,可以对算法计时
+var time=new Date(2000,2,11,13,5,38);
+alert(time.valueOf());//valueOf返回毫秒值
