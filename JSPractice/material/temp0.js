@@ -1,2 +1,6 @@
-var time=new Date(2000,2,11,13,5,38);
-alert(time.valueOf());//valueOf返回毫秒值
+var rgex=null;
+rgex = /[bc]at/g;//g表示全局,i不区分大小写,m多行匹配
+for(var i=0;i!==2;++i){
+    //rgex = /[bc]at/g;//每次都创建RegExp的实例
+    alert(rgex.test("catwehavetest"));
+}
